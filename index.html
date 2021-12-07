@@ -1,0 +1,738 @@
+<!-- Esta es la vista del usuario no registrado -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,
+    maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Lotus Company</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="main-header" id="Home">
+      <div class="container container--flex">
+        <div class="main-header__container">
+          <h1 class="main-header__title">Lotus Company</h1>
+          <nav class="main-nav" id="main-nav">
+            <ul class="menu">
+              <li class="menu__item">
+                <a href="#Home" class="menu__link">HOME</a>
+              </li>
+              <li class="menu__item">
+                <a href="#Plantas" class="menu__link">PLANTAS</a>
+              </li>
+              <li class="menu__item">
+                <a href="#About" class="menu__link">ACERCA DE</a>
+              </li>
+              <li class="menu__item">
+                <a href="#Contact" class="menu__link">CONTACTO</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="main-header__container">
+          <span class="main-header__txt">NECESITA AYUDA?</span>
+          <p class="main-header__txt phone">
+            <i class="fas fa-phone"></i> LLAME AL 963-135-5648
+          </p>
+        </div>
+        <div class="main-header__container">
+          <a href="loginvista.html" class="main-header__link"
+            ><i class="fas fa-user"></i
+          ></a>
+          <a href="#Cart" class="main-header__btn"
+            >CARRITO<i class="fas fa-shopping-cart"></i
+          ></a>
+          <input
+            type="search"
+            class="main-header__input"
+            placeholder="Mi planta favorita"
+            list="suggestion"
+          />
+          <datalist id="suggestion">
+            <option>Cromatella</option>
+            <option>Golden</option>
+            <option>Colorado</option>
+            <option>Lindsy Wood</option>
+            <option>Princesa Elizabeth</option>
+            <option>Wanviza</option>
+            <option>Anturio</option>
+            <option>Ceropegia Woodii</option>
+            <option>Cinta</option>
+            <option>Clivia</option>
+            <option>Pata de Elefante</option>
+            <option>Sansevieria</option>
+            <option>Violeta Africana</option>
+            <option>Adenium</option>
+            <option>Áster</option>
+            <option>Crisantemo</option>
+            <option>Gazania</option>
+            <option>Glicina</option>
+            <option>Pensamiento</option>
+            <option>Amapola de Agua</option>
+            <option>Calas</option>
+            <option>Caltha Palustris</option>
+            <option>Camalote</option>
+            <option>Espina de Agua</option>
+            <option>Jacinto de Agua</option>
+            <option>Pistia</option>
+
+            <option>Adenium</option>
+          </datalist>
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
+    </header>
+    <div class="container-slider" id="Plantas">
+      <div class="slider" id="slider">
+        <div class="slider__section">
+          <img src="img/banner/eins.jpg" alt="" class="slider__img" />
+          <div class="slider__content">
+            <h2 class="slider__title">LOTOS</h2>
+            <p class="slider__txt">
+              Decore su casa o apartamento con esta colección de lotos
+            </p>
+            <a href="#LOTOS" class="btn-shop">SORPRENDEME!</a>
+          </div>
+        </div>
+
+        <div class="slider__section">
+          <img src="img/banner/zwei.jpg" alt="" class="slider__img" />
+          <div class="slider__content">
+            <h2 class="slider__title">LOTOS</h2>
+            <p class="slider__txt">
+              Decore su casa o apartamento con esta colección de lotos
+            </p>
+            <a href="#LOTOS" class="btn-shop">SORPRENDEME!</a>
+          </div>
+        </div>
+
+        <div class="slider__section">
+          <img src="img/banner/drei.jpg" alt="" class="slider__img" />
+          <div class="slider__content">
+            <h2 class="slider__title">LOTOS</h2>
+            <p class="slider__txt">
+              Decore su casa o apartamento con esta colección de lotos
+            </p>
+            <a href="#LOTOS" class="btn-shop">SORPRENDEME!</a>
+          </div>
+        </div>
+
+        <div class="slider__section">
+          <img src="img/int/sansevieria.jpg" alt="" class="slider__img" />
+          <div class="slider__content">
+            <h2 class="slider__title">PLANTAS PARA INTERIORES</h2>
+            <p class="slider__txt">
+              Decore su casa o apartamento con esta colección de lotos
+            </p>
+            <a href="#INT" class="btn-shop">SORPRENDEME!</a>
+          </div>
+        </div>
+
+        <div class="slider__section">
+          <img src="img/ext/pensamiento.jpg" alt="" class="slider__img" />
+          <div class="slider__content">
+            <h2 class="slider__title">PLANTAS PARA EXTERIORES</h2>
+            <p class="slider__txt">
+              ¿Busca darle una mejor vista a su jardin? Conozca la variedad de
+              lotos que tenemos para usted haciendo clic ya mismo.
+            </p>
+            <a href="#EXT" class="btn-shop">SORPRENDEME!</a>
+          </div>
+        </div>
+
+        <div class="slider__section">
+          <img src="img/ext/aster.jpg" alt="" class="slider__img" />
+          <div class="slider__content">
+            <h2 class="slider__title">PLANTAS PARA EXTERIORES</h2>
+            <p class="slider__txt">
+              ¿Busca darle una mejor vista a su jardin? Conozca la variedad de
+              lotos que tenemos para usted haciendo clic ya mismo.
+            </p>
+            <a href="#EXT" class="btn-shop">SORPRENDEME!</a>
+          </div>
+        </div>
+
+        <div class="slider__section">
+          <img src="img/aqua/camalote.jpg" alt="" class="slider__img" />
+          <div class="slider__content">
+            <h2 class="slider__title">PLANTAS ACUATICAS</h2>
+            <p class="slider__txt">
+              Para adornar ese deposito acuifero suyo, o para brindarle una
+              sensacion de relajación, ponemos a su disposición estos hermosos
+              ejemplares.
+            </p>
+            <a href="#ACU" class="btn-shop">SORPRENDEME!</a>
+          </div>
+        </div>
+
+        <div class="slider__section">
+          <img src="img/banner/funf.jpg" alt="" class="slider__img" />
+          <div class="slider__content">
+            <h2 class="slider__title">PLANTAS ACUATICAS</h2>
+            <p class="slider__txt">
+              Para adornar ese deposito acuifero suyo, o para brindarle una
+              sensacion de relajación, ponemos a su disposición estos hermosos
+              ejemplares.
+            </p>
+            <a href="#ACU" class="btn-shop">SORPRENDEME!</a>
+          </div>
+        </div>
+      </div>
+      <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+      <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+    </div>
+
+    <main class="main">
+      <div class="container">
+        <h2 class="main-title" id="LOTOS">LOTOS</h2>
+        <section class="container-products">
+          <div class="product">
+            <img
+              src="img/cromatella/zwei.jpeg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">CROMATELLA</h3>
+              <span class="product__price">$200.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img
+              src="img/golden/eins.jpeg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">GOLDEN</h3>
+              <span class="product__price">$200.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img
+              src="img/ligth pink/eins.jpeg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">COLORADO</h3>
+              <span class="product__price">$350.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img
+              src="img/lindsy wood/eins.jpeg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">LINDSY WOOD</h3>
+              <span class="product__price">$250.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img
+              src="img/pink/eins.jpeg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">PRINCESA ELIZABETH</h3>
+              <span class="product__price">$250.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img
+              src="img/wanviza/eins.jpeg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">WANVIZA</h3>
+              <span class="product__price">$300.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+        </section>
+
+        <h2 class="main-title" id="INT">PLANTAS PARA INTERIORES</h2>
+        <section class="container-products">
+          <div class="product">
+            <img
+              src="img/int/anturio.jpg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">ANTURIO</h3>
+              <span class="product__price">$150.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+
+          <div class="product">
+            <img
+              src="img/int/ceropegiawoodii.jpeg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">CEROPEGIA WOODII</h3>
+              <span class="product__price">$150.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img
+              src="img/int/cinta.jpg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">cinta</h3>
+              <span class="product__price">$250.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img
+              src="img/int/clivia.jpg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">clivia</h3>
+              <span class="product__price">$250.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img
+              src="img/int/patadeeefante.jpg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">PATA DE ELEFANTE</h3>
+              <span class="product__price">$250.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img
+              src="img/int/sansevieria.jpg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">SANSEVIERIA</h3>
+              <span class="product__price">$250.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img
+              src="img/int/violetaafricana.jpg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">VIOLETA AFRICANA</h3>
+              <span class="product__price">$250.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+        </section>
+
+        <h2 class="main-title" id="EXT">PLANTAS PARA EXTERIORES</h2>
+        <section class="container-products">
+          <div class="product">
+            <img
+              src="img/ext/adenium.jpg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">ADENIUM</h3>
+              <span class="product__price">$150.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+
+          <div class="product">
+            <img
+              src="img/ext/aster.jpg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">ÁSTER</h3>
+              <span class="product__price">$150.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img
+              src="img/ext/crisantemo.jpg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">CRISANTEMO</h3>
+              <span class="product__price">$250.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img
+              src="img/ext/gazania.jpg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">GAZANIA</h3>
+              <span class="product__price">$250.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img
+              src="img/ext/glicina.jpg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">GLICINA</h3>
+              <span class="product__price">$250.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img
+              src="img/ext/pensamiento.jpg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">PENSAMIENTO</h3>
+              <span class="product__price">$250.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+        </section>
+
+        <h2 class="main-title" id="ACU">PLANTAS ACUATICAS</h2>
+        <section class="container-products">
+          <div class="product">
+            <img
+              src="img/aqua/amapoladeagua.png"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">AMAPOLA DE AGUA</h3>
+              <span class="product__price">$150.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+
+          <div class="product">
+            <img
+              src="img/aqua/calas.jpg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">CALAS</h3>
+              <span class="product__price">$150.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img
+              src="img/aqua/calthapalustris.jpg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">CALTHA PALUSTRIS</h3>
+              <span class="product__price">$250.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img
+              src="img/aqua/camalote.jpg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">CAMALOTE</h3>
+              <span class="product__price">$250.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img
+              src="img/aqua/espindeagua.jpg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">ESPINA DE AGUA</h3>
+              <span class="product__price">$250.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img
+              src="img/aqua/jacintodeagua.jpg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">JACINTO DE AGUA</h3>
+              <span class="product__price">$250.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img
+              src="img/aqua/pistia.jpg"
+              alt="No Disponible"
+              class="product__img"
+              title="Llevame a casa UwU"
+            />
+            <div class="product__description">
+              <h3 class="product__title">PISTIA</h3>
+              <span class="product__price">$250.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <br />
+
+    <!-- Comienza Carrito de Compras -->
+    <section class="shopping-cart Carrito" id="Cart">
+      <div class="container">
+        <h1 class="text-center">CARRITO</h1>
+        <hr />
+        <div class="row">
+          <div class="col-6">
+            <div class="shopping-cart-header">
+              <h6>PRODUCTO</h6>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="shopping-cart-header">
+              <h6 class="text-truncate">PRECIO</h6>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="shopping-cart-header">
+              <h6>PIEZAS</h6>
+            </div>
+          </div>
+        </div>
+        <!-- ? Esta wea no la borres -->
+        <div class="shopping-cart-items shoppingCartItemsContainer"></div>
+   
+
+        <!-- Esto es para que saque el total -->
+        <div class="row">
+          <div class="col-12">
+            <div class="shopping-cart-total d-flex align-items-center">
+              <p class="mb-0">Total</p>
+              <p class="ml-4 mb-0 shoppingCartTotal">$0</p>
+              <div
+                class="toast ml-auto bg-info"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+                data-delay="2000"
+              >
+                <div class="toast-header">
+                  <span>✅</span>
+                  <strong class="mr-auto ml-1 text-secondary"
+                    >Elemento en el carrito</strong
+                  >
+                  <button
+                    type="button"
+                    class="ml-2 mb-1 close"
+                    data-dismiss="toast"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="toast-body text-white">
+                  Se aumentó correctamente la cantidad
+                </div>
+              </div>
+              <button
+                class="btn btn-success ml-auto comprarButton"
+                type="button"
+                data-toggle="modal"
+                data-target="#comprarModal"
+              >
+                Comprar
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="modal fade"
+          id="comprarModal"
+          tabindex="-1"
+          aria-labelledby="comprarModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="comprarModalLabel">
+                  Gracias por su compra
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Pronto recibirá su pedido</p>
+            </div>
+            
+ <!-- ? BTNN-->
+  <!-- ? BTN -->
+
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Cerrar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/slider.js"></script>
+    <div class="GUP" id="GUP">
+      <i class="fa-solid fa-angles-up"></i>
+    </div>
+
+    <footer class="main-footer">
+      <div class="footer__section" id="About">
+        <h2 class="footer__title">ACERCA DE NOSOTROS</h2>
+        <p class="footer__txt">
+          Somos una empresa apasionada por las plantas quue quiere compartir el
+          mejor catalago de plantas a su alcance y a su medida.
+        </p>
+      </div>
+
+      <div class="footer__section" id="Contact">
+        <h2 class="footer__title">UBICACIÓN :</h2>
+        <p class="footer__txt">
+          Colonia las Granadas, Comitán de Dominguéz, Chiapas
+        </p>
+        <h2 class="footer__title">CONTACTO</h2>
+        <p class="footer__txt">TELEFONO : +52 1 963 135 5648</p>
+        <p class="footer__txt">E-mail : EdwinAlvarado9912@gmail.com</p>
+      </div>
+
+      <div class="footer__section">
+        <h2 class="footer__title">REGISTRESE PARA RECIBIR OFERTAS AL CORREO</h2>
+        <p class="footer__txt">
+          AL SUBSCRIBISE A NUESTRA LSTA DE CORREOS USTED RECBIRÁ NUESTRAS
+          ULTIMAS ACTUALIZACIONS Y NOTICIAS.
+        </p>
+        <input
+          type="email"
+          class="footer__input"
+          placeholder="EXAMPLE@EMAIL.COM"
+        />
+        <input type="submit" value="Enviar" class="button" />
+      </div>
+
+      <p class="copy">
+        © 2021 LOTUS COMPANY. TODOS LOS DERECHOS RESERVADOS | DISEÑADO POR EL
+        PANA MÁS FRESCO JAJIO JAJIO JAJIO
+      </p>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/tienda.js"></script>
+  </body>
+</html>
